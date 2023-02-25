@@ -19,6 +19,19 @@ Created an a group with **AdministratorAccess** policy and added an admin user n
 ### Use CloudShell
 ![alt Cloud Shell](assets/0-AWS-CloudShell.png)
 
-- Installed AWS CLI
-- Create a Billing Alarm
-- Create a Budget
+### Installed AWS CLI
+Decided to install and configure the AWs CLI on my local environment (Linux) after successfully installing via gitpod. In followed intructions on the AWS documentation pages below
+- [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+- [Configuration basics - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+
+
+![AWS CLI installation in Linux](assets/0-AWS-cli-installation.png)
+
+### Create a Billing Alarm
+
+![AWS Billing Alarm](assets/0-billing-alarm.png)
+
+### Create a Budget
+I created a budget with a limit of $1
+
+![AWS budget](assets/0-AWS-Budget.png)
