@@ -23,6 +23,19 @@ Created an a group with **AdministratorAccess** policy and added an admin user n
 Decided to install and configure the AWs CLI on my local environment (Linux) after successfully installing via gitpod. In followed intructions on the AWS documentation pages below
 - [Installing or updating the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 - [Configuration basics - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+```
+$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+$ unzip awscliv2.zip
+$ sudo ./aws/install
+```
+
+```
+$ aws configure
+AWS Access Key ID [None]: *********************
+AWS Secret Access Key [None]: ******************************************
+Default region name [None]: us-east-2
+Default output format [None]: json
+```
 
 
 ![AWS CLI installation in Linux](assets/0-AWS-cli-installation.png)
@@ -35,3 +48,7 @@ Decided to install and configure the AWs CLI on my local environment (Linux) aft
 I created a budget with a limit of $1
 
 ![AWS budget](assets/0-AWS-Budget.png)
+
+
+
+## Homework Challenges
